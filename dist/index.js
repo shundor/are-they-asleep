@@ -33552,7 +33552,7 @@ async function run() {
       }
     }
   } catch (error) {
-    core_default().setFailed(error.message);
+    core_default().setFailed(`Action failed with error ${error}`);
   }
 }
 
