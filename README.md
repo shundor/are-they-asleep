@@ -2,7 +2,7 @@
 
 Check a teammate's timezone and see if they're awake!
 
- ![Badge](https://github.com/shundor/are-they-asleep/workflows/test/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![unit-tests](https://github.com/shundor/are-they-asleep/actions/workflows/test.yml/badge.svg)](https://github.com/shundor/are-they-asleep/actions/workflows/test.yml)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## About
 
