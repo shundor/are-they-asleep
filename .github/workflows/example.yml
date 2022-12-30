@@ -1,0 +1,20 @@
+name: Example Action
+
+on:
+  issue_comment:
+    types: [created, edited]
+    branches:
+      - main     
+jobs:
+  comment:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Comment
+        id: are-they-awake-yet
+        uses: shundor/are-they-awake-yet@v1.0.0
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GOOGLE_API_KEY: "${{ secrets.GOOGLE_API_KEY }}"

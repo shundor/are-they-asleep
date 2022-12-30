@@ -1,0 +1,5 @@
+name: Are They Asleep?
+description: Is it real late where your remote teammate lives?
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
