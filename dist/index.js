@@ -29157,7 +29157,6 @@ __nccwpck_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./node_modules/@actions/core/lib/core.js
 var core = __nccwpck_require__(2186);
-var core_default = /*#__PURE__*/__nccwpck_require__.n(core);
 // EXTERNAL MODULE: ./node_modules/@actions/github/lib/github.js
 var github = __nccwpck_require__(5438);
 var github_default = /*#__PURE__*/__nccwpck_require__.n(github);
@@ -33552,7 +33551,7 @@ async function run() {
       }
     }
   } catch (error) {
-    core_default().setFailed(`Action failed with error ${error}`);
+    console.log(`Error: ${error}`);
   }
 }
 
