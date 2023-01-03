@@ -1,6 +1,6 @@
 {
   "name": "are-they-asleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Is it real late where your remote teammate lives?",
   "main": "index.js",
   "type": "module",
