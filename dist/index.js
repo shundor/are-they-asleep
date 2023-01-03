@@ -33436,6 +33436,7 @@ var date_string = "";
 async function run() {
   try {
     const context = (github_default()).context;
+    console.log(`context: ${JSON.stringify(context)}`);
     const tools = github_default().getOctokit(process.env.GITHUB_TOKEN);
     const owner = context.repo.owner;
     const repo = context.repo.repo;
