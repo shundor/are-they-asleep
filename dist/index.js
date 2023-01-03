@@ -33551,6 +33551,7 @@ async function run() {
       }
     }
   } catch (error) {
+    console.trace();
     console.log(`Error: ${error}`);
   }
 }
