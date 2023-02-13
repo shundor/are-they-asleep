@@ -28,7 +28,7 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1",
-    "@googlemaps/google-maps-services-js": "^3.3.16",
+    "@googlemaps/google-maps-services-js": "^3.3.27",
     "axios": "^1.2.2",
     "dotenv": "^16.0.3",
     "moment": "^2.29.4",
